@@ -1,0 +1,18 @@
+u=int(input("enter no. of units"))
+if u<=50:
+    b=u*0.5
+    bt=b+ (20/100)*b
+    print("total bill",bt)
+elif 150>=u>50:
+    b=u*0.75
+    bt=b+ (20/100)*b
+    print("total bill",bt)
+elif 250>=u>150:
+    b=u*1.20
+    bt=b+ (20/100)*b
+    print("total bill",bt)
+else: 
+    b=u*1.50
+    bt=b+ (20/100)*b
+    print("total bill",bt)
+    
