@@ -1,0 +1,12 @@
+n=int(input("number"))
+i=1
+s=0
+while i<=n:
+    if n%i==0:
+        s+=1
+    i+=1
+if s!=2:
+    print("not prime number")
+else:
+    print("prime")
+        

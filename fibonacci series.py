@@ -1,13 +1,11 @@
-n=int(input("enter the number"))
-if n==0 and n==1:
-    print(n)
-else:
-    i=2
-    a=0
-    b=1
-    while(i<=n):
+n=int(input("number"))
+a=0
+b=1
+print(a,b,end=' ')
+while n-2>0:
         c=a+b
+        print(c,end=' ')
         a=b
         b=c
-        i+=1
-        print(c)
+        n-=1
+       
