@@ -1,13 +1,9 @@
-import random 
-m=random.randrange(1,101)
-score=10
-while True:
-    a=int(input("giuess a number b/w 1 and 100"))
-    if a==m:
-        print("cong.you won with score =",score)
-        break
-    elif a>m:
-        print("large")
-    else:
-        print("small")
-    score-=1
+n=int(input())
+i=2
+s=0
+while i<=n:
+    if i%2==0:
+        s+=i
+        i+=2
+    
+print("sum of even numbers =",s)
